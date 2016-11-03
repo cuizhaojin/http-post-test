@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="web:war exploded">
+    <output-path>$PROJECT_DIR$/target/licaike-restful</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="web/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.1.36" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.0.1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

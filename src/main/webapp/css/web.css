@@ -1,0 +1,170 @@
+* {
+	    margin: 0;
+	    padding: 0;
+	    font-family: "Source Sans Pro", 'Microsoft Yahei', '微软雅黑', sans-serif, Helvetica, 'Hiragino Sans GB', Arial;
+	}
+	
+	button {
+   	 	margin-bottom: 10px;
+	}
+	input {
+	    text-align: left;
+	    border: 1px solid #CCC;
+	    border-radius: 5px;
+	    font-size: .98em;
+	}
+	table{
+		font-size: .95em;
+	}
+	thead {
+    	background-color: #f3f3f3;
+	}
+	textarea {
+	    width: 100%;
+	    height: 500px;
+	    resize: vertical;
+	    border: 1px solid #CCC;
+	    border-radius: 8px;
+	    padding: 4px;
+	    box-shadow: 2px 2px 5px #d3d6da;
+	    -moz-box-shadow: 2px 2px 5px #d3d6da;
+	}
+	.container{
+		width: 1000px;
+	    margin: 0 auto;
+	    margin-bottom: 20px;
+	}
+	.form{
+		border: thin solid #A4AA04; 
+		padding: 0 20px;
+		margin-top: 30px;
+	}
+	.optiondiv{
+	width: 24%;
+	float: left;
+	display: inline;
+	min-height: 1em;
+	margin: 0 1% 5px 1%
+	}
+	.select{
+	    width: 95%;
+	    padding: 0 10px;
+	    margin: 0 5px;
+	    height: 2.3em;
+	    line-height: 2.3em;
+	    text-align: left;
+	    border: 1px solid #CCC;
+	    border-radius: 5px;
+	    font-size: .98em;
+	}
+	.http{
+		width: 40%;
+		float: left;
+	    display: inline;
+	    min-height: 1em;
+	    margin: 0 1% 5px 1%;
+	}
+	
+	.input-text{
+		width: 95%;
+	    height: 2.1em;
+	    line-height: 2.1em;
+	    padding-left: 5px;
+	    
+	    text-align: left;
+	    border: 1px solid #CCC;
+	    border-radius: 5px;
+	    font-size: .98em;
+	}
+	
+	
+	.button {
+		margin-left:2px;
+	    border: 0;
+	    border-radius: 4px;
+	    outline: 0;
+	    cursor: pointer;
+	}
+	.button.success {
+   		color: #FFF;
+    	background: #4daf7c
+	}
+	.button.success:hover {
+  	  background: #48a474
+	}
+	.button.delete {
+   		color: #FFF;
+    	background: #ff0000
+	}
+	.button.delete:hover {
+  	  background: #48a474
+	}
+	.button.small {
+    	padding: 7px 10px;
+    	font-size: .95em;
+    	margin-bottom: 10px;
+	}
+	.button.danger {
+	    color: #FFF;
+	    background: #e6623c
+	}
+	.button.danger:hover {
+    	background: #e4572e
+	}
+	.button.primary {
+	    color: #FFF;
+	    background: #5f90b0
+	}
+	.button.primary:hover {
+ 	   background: #5589ab
+	}
+	.table {
+	    width: 100%;
+	    border-spacing: 0;
+	    border-collapse: collapse;
+	    text-align: left;
+	}
+	.table.table-bordered td, .table.table-bordered th {
+   		border: 1px #CCC solid;
+	}
+	.table_tr{
+		line-height: 12px;
+	}
+	.table th, .table td {
+	    border-bottom: 2px #d1d1d1 solid;
+	    padding: 8px 12px;
+	   /*  white-space: nowrap; */
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	}
+	.input-text {
+	    width: 95%;
+	    height: 2.1em;
+	    line-height: 2.1em;
+	    padding-left: 5px;
+	}
+	#params_table, #headers_table {
+    	margin-bottom: 15px;
+	}
+	.params_value, .headers_value {
+    width: 60%;
+	}
+	.manual {
+    padding-left: 30px;
+    padding-top: 20px;
+	}
+	.spanapi{
+	height: 2.1em;
+    line-height: 2.1em;
+    padding-left: 5px;
+	}
+	.statustext{
+	font-size:1em;
+	font-weight: bold;
+	}
+	.checkboxstyle{
+	height:20px;
+	width:20px;
+	font-size: 20px;
+    margin-left: 20px
+	}

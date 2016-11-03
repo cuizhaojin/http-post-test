@@ -1,0 +1,91 @@
+[
+    {
+        "comment": "以下是api接口json数据,parameters为属性列表",
+        "api_list": [
+            {
+                "name": "shengou",
+                "api_descr": "申购接口",
+                "parameters": [
+                    {
+                        "name": "userid",
+                        "description": "用户1",
+                        "encrypt_type": "rsa"
+                    },
+                    {
+                        "name": "cardid",
+                        "description": "用户2",
+                        "encrypt_type": "rsa"
+                    },
+                    {
+                        "name": "bankid",
+                        "description": "1231321",
+                        "encrypt_type": ""
+                    }
+                ]
+            },
+            {
+                "name": "shuhui",
+                "api_descr": "赎回接口",
+                "parameters": [
+                    {
+                        "name": "userid",
+                        "description": "用户id",
+                        "encrypt_type": "rsa"
+                    },
+                    {
+                        "name": "userid",
+                        "description": "用户id",
+                        "encrypt_type": "rsa"
+                    },
+                    {
+                        "name": "userid",
+                        "description": "用户id",
+                        "encrypt_type": "rsa"
+                    }
+                ]
+            },
+            {
+                "name": "kaihu",
+                "api_descr": "开户接口",
+                "parameters": [
+                    {
+                        "name": "userid",
+                        "description": "用户id",
+                        "encrypt_type": "rsa"
+                    },
+                    {
+                        "name": "userid",
+                        "description": "用户id",
+                        "encrypt_type": "rsa"
+                    },
+                    {
+                        "name": "userid",
+                        "description": "用户id",
+                        "encrypt_type": "rsa"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "comment": "以下response 中返回对象中的需要解密的参数集合",
+        "decryptset": [
+	        {
+	            "decryptname": "custid",
+	            "name_descr": "客户ID"
+	        },
+	        {
+	             "decryptname": "applyserial",
+	             "name_descr": "asdfad"
+	        },
+        	{
+	             "decryptname": "certid",
+	             "name_descr": "asdfad"
+	        },
+	        {
+	             "decryptname": "usrmp",
+	             "name_descr": "用户阿里大家发两件"
+	        }
+        ]
+    }
+]
